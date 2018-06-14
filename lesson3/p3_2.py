@@ -1,6 +1,8 @@
-num = input("Введите число: ")
+num = input("Введите целое число: ")
 
-if int(num) > 0:
+if  not num.isdigit():
+    print("Вы ввели какое-то говно!")
+elif int(num) > 0:
     if int(num) > 10:
         print("Вы ввели число больше 10")
         if int(num) > 50:
