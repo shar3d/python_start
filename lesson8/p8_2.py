@@ -1,0 +1,2 @@
+person = {'name': {'last_name': 'Smith', 'first_name': 'John'}, 'address': ['Kyiv', 'Malevicha St., 25', 'apt. 28'], 'phone': {'home_phone': '258-64-85', 'mobile_phone': '093-658-87-45', 'mobile_phone_2': 'No'}}
+print(person['phone']['mobile_phone'])
